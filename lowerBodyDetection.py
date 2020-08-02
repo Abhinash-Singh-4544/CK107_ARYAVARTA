@@ -3,7 +3,7 @@ import cv2
 face_classifier = cv2.CascadeClassifier('haarFiles/haarcascade_lowerbody.xml')
 
 cap = cv2.VideoCapture(0)
-img = cv2.imread("t5.jpg")
+#img = cv2.imread("t5.jpg")
 count = 0
 while cap:
     # ret, img = cap.read()
